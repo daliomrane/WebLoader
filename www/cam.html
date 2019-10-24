@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Capture Photo</title>
+  
+  
+       <script src="js/jquery-3.1.1.min.js"></script>
+       <style>
+
+          img
+          {
+            position: absolute;
+            top: 37%; 
+            margin-left: -60px;
+            width:120px;
+            height: 100px;
+          }
+
+          /* Loader Parts */ 
+          .img15 
+          {
+            opacity: 1;
+            animation: fade15 2s infinite;
+          }
+
+          @keyframes fade15 
+          { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+          .img16 
+          {
+            opacity: 1;
+            animation: fade16 2s infinite;
+          }
+
+          @keyframes fade16 
+          { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+          .img17 
+          {
+            opacity: 1;
+            animation: fade17 3s infinite;
+          }
+
+          @keyframes fade17 
+          { 
+            100% { -webkit-transform: rotate(-360deg);
+            transform:rotate(-360deg); } 
+           }
+
+    
+        </style>
+  </head>  
+  <body>
+	
+  <center>
+   
+   <img class="img15" src="img/loader/img15.png">
+   <img class="img16" src="img/loader/img16.png">
+   <img class="img17" src="img/loader/img17.png">
+
+  </center>
+  <!--Script references. -->
+    <!--Reference the jQuery library. -->
+    
+   <!--Script references. -->
+    <!--Reference the jQuery library. -->
+  <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script src="js/index2.js"></script>
+    <!--Reference the SignalR library. -->
+   
+    <!--Add script to update the page and send messages.-->
+
+    
+  </body>
+</html>
